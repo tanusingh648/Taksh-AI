@@ -1,0 +1,19 @@
+{
+    "model_name": "Random Forest",
+    "target_column": "date",
+    "feature_columns": [
+        "description",
+        "amount",
+        "balance",
+        "category"
+    ],
+    "numerical_features": [
+        "amount",
+        "balance"
+    ],
+    "categorical_features": [
+        "description",
+        "category"
+    ],
+    "problem_type": "classification"
+}

@@ -1,0 +1,28 @@
+{
+    "model_name": "Linear Regression",
+    "target_column": "Year",
+    "feature_columns": [
+        "Industry_aggregation_NZSIOC",
+        "Industry_code_NZSIOC",
+        "Industry_name_NZSIOC",
+        "Units",
+        "Variable_code",
+        "Variable_name",
+        "Variable_category",
+        "Value",
+        "Industry_code_ANZSIC06"
+    ],
+    "numerical_features": [],
+    "categorical_features": [
+        "Industry_aggregation_NZSIOC",
+        "Industry_code_NZSIOC",
+        "Industry_name_NZSIOC",
+        "Units",
+        "Variable_code",
+        "Variable_name",
+        "Variable_category",
+        "Value",
+        "Industry_code_ANZSIC06"
+    ],
+    "problem_type": "regression"
+}
