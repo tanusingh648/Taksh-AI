@@ -1,0 +1,21 @@
+{
+    "model_name": "Random Forest",
+    "target_column": "id",
+    "feature_columns": [
+        "name",
+        "email",
+        "city",
+        "phone",
+        "age"
+    ],
+    "numerical_features": [
+        "age"
+    ],
+    "categorical_features": [
+        "name",
+        "email",
+        "city",
+        "phone"
+    ],
+    "problem_type": "regression"
+}
